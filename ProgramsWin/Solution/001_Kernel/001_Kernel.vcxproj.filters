@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\01_Environment">
+      <UniqueIdentifier>{211c534a-11a4-4a00-9987-73eae3b0c3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02_BasicTypes">
+      <UniqueIdentifier>{9ffb92d4-6a34-4bcf-87ff-fc402515225d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01_Environment">
+      <UniqueIdentifier>{dc678ddf-1a80-4d49-8951-e013d5ed5cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02_BasicTypes">
+      <UniqueIdentifier>{d5f0c141-df7c-4e13-93cf-9cf0b0f470bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03_Encoding">
+      <UniqueIdentifier>{8752f2ed-8a34-4b22-a418-6770ca992517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03_Encoding">
+      <UniqueIdentifier>{563950ce-e2ce-4ee6-8f4b-a1cd90943a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\04_String">
+      <UniqueIdentifier>{9b301ca9-397c-4e78-a423-c4073d807dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04_String">
+      <UniqueIdentifier>{786d0296-904e-4089-963e-35eab53986aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\05_System">
+      <UniqueIdentifier>{28973d0e-364b-4251-9ea8-b8459e6fe401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05_System">
+      <UniqueIdentifier>{5b364242-ecc3-4ab3-a25a-8d20d587427c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\06_Output">
+      <UniqueIdentifier>{ae1c4af8-7917-40f8-819c-34fc512df339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\06_Output">
+      <UniqueIdentifier>{aa6b43d2-e1a8-4d80-9d8d-8ca08e5adfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\07_Parser">
+      <UniqueIdentifier>{cdfc0a1a-e660-4174-a8de-0955a5edd435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07_Parser">
+      <UniqueIdentifier>{ad471ac1-f464-4e38-8fff-3e9f316d708c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\08_Config">
+      <UniqueIdentifier>{b211a852-7913-43b2-8d61-bcec15e374bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\08_Config">
+      <UniqueIdentifier>{24e5fc05-528d-474b-aedf-147edbb5163e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\09_Errors">
+      <UniqueIdentifier>{bb0b4929-ffd6-402c-aa4d-a7f5d9d15ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\09_Errors">
+      <UniqueIdentifier>{6930ec70-16ef-441b-97af-a701af842d62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Environment\01_StdLib.h">
+      <Filter>Header Files\01_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Environment\02_DetectSystem.h">
+      <Filter>Header Files\01_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Environment\03_CheckSystem.h">
+      <Filter>Header Files\01_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Environment\04_DetectCompiler.h">
+      <Filter>Header Files\01_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Environment\05_CheckCompiler.h">
+      <Filter>Header Files\01_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="02_BasicTypes\01_IntegerTypes.h">
+      <Filter>Header Files\02_BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="02_BasicTypes\02_FloatingTypes.h">
+      <Filter>Header Files\02_BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="02_BasicTypes\03_AngleTransform.h">
+      <Filter>Header Files\02_BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Encoding\CP866.h">
+      <Filter>Header Files\03_Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Encoding\UTF8.h">
+      <Filter>Header Files\03_Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Encoding\Wide.h">
+      <Filter>Header Files\03_Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="04_String\01_FileName.h">
+      <Filter>Header Files\04_String</Filter>
+    </ClInclude>
+    <ClInclude Include="04_String\02_Formatting.h">
+      <Filter>Header Files\04_String</Filter>
+    </ClInclude>
+    <ClInclude Include="04_String\03_Case.h">
+      <Filter>Header Files\04_String</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Output\01_CControlChar.h">
+      <Filter>Header Files\06_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Output\03_COutputConsole.h">
+      <Filter>Header Files\06_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Output\04_CSystemLog.h">
+      <Filter>Header Files\06_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="05_System\01_CDateTime.h">
+      <Filter>Header Files\05_System</Filter>
+    </ClInclude>
+    <ClInclude Include="05_System\02_CFileInfo.h">
+      <Filter>Header Files\05_System</Filter>
+    </ClInclude>
+    <ClInclude Include="05_System\03_CDataFile.h">
+      <Filter>Header Files\05_System</Filter>
+    </ClInclude>
+    <ClInclude Include="05_System\04_CTextFile.h">
+      <Filter>Header Files\05_System</Filter>
+    </ClInclude>
+    <ClInclude Include="05_System\05_MakeSleep.h">
+      <Filter>Header Files\05_System</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Environment\06_SysLib.h">
+      <Filter>Header Files\01_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="02_BasicTypes\04_CByteArray.h">
+      <Filter>Header Files\02_BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Parser\01_CDataMap.h">
+      <Filter>Header Files\07_Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Parser\01_CStringTable.h">
+      <Filter>Header Files\07_Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Parser\02_CTextLexeme.h">
+      <Filter>Header Files\07_Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Parser\03_CTextScanner.h">
+      <Filter>Header Files\07_Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Parser\04_CTextParser.h">
+      <Filter>Header Files\07_Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="02_BasicTypes\05_Result.h">
+      <Filter>Header Files\02_BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="08_Config\CSettings.h">
+      <Filter>Header Files\08_Config</Filter>
+    </ClInclude>
+    <ClInclude Include="09_Errors\ErrorCodes.h">
+      <Filter>Header Files\09_Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="06_Output\02_CTextColor.h">
+      <Filter>Header Files\06_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="05_System\06_CClock.h">
+      <Filter>Header Files\05_System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UnityBuild.001.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_BasicTypes\02_FloatingTypes.cpp">
+      <Filter>Source Files\02_BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="02_BasicTypes\03_AngleTransform.cpp">
+      <Filter>Source Files\02_BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Encoding\CP866.cpp">
+      <Filter>Source Files\03_Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Encoding\UTF8.cpp">
+      <Filter>Source Files\03_Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Encoding\Wide.cpp">
+      <Filter>Source Files\03_Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="04_String\03_Case.cpp">
+      <Filter>Source Files\04_String</Filter>
+    </ClCompile>
+    <ClCompile Include="04_String\01_FileName.cpp">
+      <Filter>Source Files\04_String</Filter>
+    </ClCompile>
+    <ClCompile Include="04_String\02_Formatting.cpp">
+      <Filter>Source Files\04_String</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Output\01_CControlChar.cpp">
+      <Filter>Source Files\06_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Output\03_COutputConsole.cpp">
+      <Filter>Source Files\06_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Output\04_CSystemLog.cpp">
+      <Filter>Source Files\06_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="05_System\01_CDateTime.cpp">
+      <Filter>Source Files\05_System</Filter>
+    </ClCompile>
+    <ClCompile Include="05_System\02_CFileInfo.cpp">
+      <Filter>Source Files\05_System</Filter>
+    </ClCompile>
+    <ClCompile Include="05_System\03_CDataFile.cpp">
+      <Filter>Source Files\05_System</Filter>
+    </ClCompile>
+    <ClCompile Include="05_System\04_CTextFile.cpp">
+      <Filter>Source Files\05_System</Filter>
+    </ClCompile>
+    <ClCompile Include="05_System\05_MakeSleep.cpp">
+      <Filter>Source Files\05_System</Filter>
+    </ClCompile>
+    <ClCompile Include="02_BasicTypes\04_CByteArray.cpp">
+      <Filter>Source Files\02_BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Parser\01_CStringTable.cpp">
+      <Filter>Source Files\07_Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Parser\02_CTextLexeme.cpp">
+      <Filter>Source Files\07_Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Parser\03_CTextScanner.cpp">
+      <Filter>Source Files\07_Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Parser\04_CTextParser.cpp">
+      <Filter>Source Files\07_Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Parser\01_CDataMap.cpp">
+      <Filter>Source Files\07_Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="08_Config\CSettings.cpp">
+      <Filter>Source Files\08_Config</Filter>
+    </ClCompile>
+    <ClCompile Include="09_Errors\ErrorCodes.cpp">
+      <Filter>Source Files\09_Errors</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Output\02_CTextColor.cpp">
+      <Filter>Source Files\06_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="05_System\06_CClock.cpp">
+      <Filter>Source Files\05_System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Version.template">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Prebuild.bat" />
+  </ItemGroup>
+</Project>

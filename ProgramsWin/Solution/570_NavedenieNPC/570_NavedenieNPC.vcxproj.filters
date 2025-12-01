@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\90_System">
+      <UniqueIdentifier>{10f8c6c6-db77-4d19-9e37-0994c48cecc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\90_System">
+      <UniqueIdentifier>{b3355fad-2769-4b96-b745-b624da440699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FD_BpLA">
+      <UniqueIdentifier>{e39198ee-625f-4e10-b5a0-88d33c401567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FD_BpLA">
+      <UniqueIdentifier>{2ece20e8-45f7-4a80-97c4-957d9ab410ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="90_System\01_CSysMotionNavedenieNPCType.h">
+      <Filter>Header Files\90_System</Filter>
+    </ClInclude>
+    <ClInclude Include="90_System\02_CSysMotionNavedenieNPC.h">
+      <Filter>Header Files\90_System</Filter>
+    </ClInclude>
+    <ClInclude Include="FD_BpLA\BpLA.h">
+      <Filter>Header Files\FD_BpLA</Filter>
+    </ClInclude>
+    <ClInclude Include="FD_BpLA\CFlightDynamicsBpLA.h">
+      <Filter>Header Files\FD_BpLA</Filter>
+    </ClInclude>
+    <ClInclude Include="FD_BpLA\NObject.h">
+      <Filter>Header Files\FD_BpLA</Filter>
+    </ClInclude>
+    <ClInclude Include="FD_BpLA\Trajectory_BpLA.h">
+      <Filter>Header Files\FD_BpLA</Filter>
+    </ClInclude>
+    <ClInclude Include="FD_BpLA\TTX_BpLA.h">
+      <Filter>Header Files\FD_BpLA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UnityBuild.570.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="90_System\01_CSysMotionNavedenieNPCType.cpp">
+      <Filter>Source Files\90_System</Filter>
+    </ClCompile>
+    <ClCompile Include="90_System\02_CSysMotionNavedenieNPC.cpp">
+      <Filter>Source Files\90_System</Filter>
+    </ClCompile>
+    <ClCompile Include="FD_BpLA\CFlightDynamicsBpLA.cpp">
+      <Filter>Source Files\FD_BpLA</Filter>
+    </ClCompile>
+    <ClCompile Include="FD_BpLA\Dvijenie_po_marshrutu.cpp">
+      <Filter>Source Files\FD_BpLA</Filter>
+    </ClCompile>
+    <ClCompile Include="FD_BpLA\NObject.cpp">
+      <Filter>Source Files\FD_BpLA</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

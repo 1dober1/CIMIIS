@@ -1,0 +1,7 @@
+show_name = "Камаз"
+
+kind = "наземный"
+
+[systems=]
+                "Движение.Объект.sys"
+[/systems]

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\90_System">
+      <UniqueIdentifier>{10f8c6c6-db77-4d19-9e37-0994c48cecc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\90_System">
+      <UniqueIdentifier>{b3355fad-2769-4b96-b745-b624da440699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\01_Calc">
+      <UniqueIdentifier>{62d36962-3aa3-4b47-9e1f-bc02bcb83959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02_Environment">
+      <UniqueIdentifier>{7bf6bf8d-007a-4fef-a6a5-a53921d13677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01_Calc">
+      <UniqueIdentifier>{ae644b55-367f-47dc-9044-c1cadb981529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02_Environment">
+      <UniqueIdentifier>{ca335a51-6cee-4920-9fc8-b11d52972daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\91_Utility">
+      <UniqueIdentifier>{bce9c82a-3df0-4ae3-9af6-9fc47bd25cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\91_Utility">
+      <UniqueIdentifier>{2183abdc-4d1f-459a-a16c-4ab9ac63fd22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\01_AtmosphereCalc.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\02_InfraRedContrastCalc.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\03_DistanceCalc.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\03_FieldOfVisionCalc.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\04_StaticDetectionProbability.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\10_DataStructs.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\11_EnumClasses.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Calc\99_EffectiveIrradianceCalc.h">
+      <Filter>Header Files\01_Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Environment\01_CEnvironment.h">
+      <Filter>Header Files\02_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="90_System\01_CSysOpticThermalType.h">
+      <Filter>Header Files\90_System</Filter>
+    </ClInclude>
+    <ClInclude Include="90_System\02_CSysOpticThermal.h">
+      <Filter>Header Files\90_System</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Environment\04_CEnvInternal.h">
+      <Filter>Header Files\02_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Environment\02_CGlobalEnvironment.h">
+      <Filter>Header Files\02_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Environment\10_EEnvTypes.h">
+      <Filter>Header Files\02_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Environment\05_IEnvWrapper.h">
+      <Filter>Header Files\02_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Environment\03_CEarth.h">
+      <Filter>Header Files\02_Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="91_Utility\01_CStorage.h">
+      <Filter>Header Files\91_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="91_Utility\02_CFormat.h">
+      <Filter>Header Files\91_Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_Calc\01_AtmosphereCalc.cpp">
+      <Filter>Source Files\01_Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Calc\02_InfraRedContrastCalc.cpp">
+      <Filter>Source Files\01_Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Calc\03_DistanceCalc.cpp">
+      <Filter>Source Files\01_Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Calc\03_FieldOfVisionCalc.cpp">
+      <Filter>Source Files\01_Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Calc\04_StaticDetectionProbability.cpp">
+      <Filter>Source Files\01_Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Calc\99_EffectiveIrradianceCalc.cpp">
+      <Filter>Source Files\01_Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Environment\01_CEnvironment.cpp">
+      <Filter>Source Files\02_Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="90_System\02_CSysOpticThermal.cpp">
+      <Filter>Source Files\90_System</Filter>
+    </ClCompile>
+    <ClCompile Include="90_System\01_CSysOpticThermalType.cpp">
+      <Filter>Source Files\90_System</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Environment\04_CEnvInternal.cpp">
+      <Filter>Source Files\02_Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Environment\02_CGlobalEnvironment.cpp">
+      <Filter>Source Files\02_Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Environment\03_CEarth.cpp">
+      <Filter>Source Files\02_Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="91_Utility\01_CStorage.600.cpp">
+      <Filter>Source Files\91_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityBuild.600.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

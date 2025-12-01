@@ -1,0 +1,1 @@
+start rtinode.exe -i 127.0.0.1:1235 1>NUL 2>NUL

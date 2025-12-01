@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<COMMANDS DIR="../" 
+		  ICONS_DIR="./icons/" 
+		  KILL_TIMER_DELAY="5000">
+	
+	<COMMAND NAME="Открыть в визуализаторе"
+			 ICON="ATLANTIC.png"
+			 TEXT=""
+			 COMMAND="Visualizator/Visualizator.exe"
+			 WORKING_DIRECTORY="./Visualizator/"
+			 MULTI_START="FALSE" 
+			 MAX_PROC_COUNT="5">
+			 <COMMAND_ENV VAR_NAME="PATH" VALUE="bin"/>
+	</COMMAND>
+
+	<COMMAND NAME="Визуализатор виртуального Мира"
+			 ICON="ATLANTIC.png"
+			 TEXT="Открыть визуализатор"
+			 COMMAND="Visualizator/Visualizator.exe"
+			 WORKING_DIRECTORY="./Visualizator/"
+			 MULTI_START="FALSE" MAX_PROC_COUNT="2"
+			 EDIT_SIGN="true">
+			 <COMMAND_ENV VAR_NAME="PATH" VALUE="bin"/>
+	</COMMAND>
+
+	<COMMAND NAME="Остановить всё"
+			 ICON=":Resources/icons/STOP_ALL.png"
+			 COMMAND="CIMIIS/Kill.bat"
+			 WORKING_DIRECTORY=""/>
+	
+	<COMMAND NAME="Остановить моделирование"
+			 ICON="STOP_MODEL.png"
+			 COMMAND="CIMIIS/KillAllButVisual.bat"
+			 WORKING_DIRECTORY=""/>
+
+	
+	<COMMAND NAME="Начать моделирование" 
+			 COMMAND="bin/Starter.exe" 
+			 WORKING_DIRECTORY="" 
+			 MULTI_START="TRUE" 
+			 MAX_PROC_COUNT="1">
+			 <COMMAND_PARAM VALUE="./bin/winStarterFilm.json"/>
+	</COMMAND>
+	
+	<COMMAND NAME="Редактор ТТХ"
+			 TEXT="Редактировать ТТХ"
+			 COMMAND="DataEditor/SettingsLib.exe"
+			 WORKING_DIRECTORY="../Data/Units/"
+			 MULTI_START="FALSE" MAX_PROC_COUNT="10">
+			 <COMMAND_ENV VAR_NAME="PATH" VALUE="../../ProgramsWin/bin"/>
+			 <COMMAND_PARAM VALUE="../../ProgramsWin/DataEditor/tth.template"/>
+			 <COMMAND_PARAM VALUE="-bak"/>
+	</COMMAND>
+	
+	<COMMAND NAME="Смотреть ТТХ"
+			 COMMAND="DataEditor/SettingsLib.exe"
+			 WORKING_DIRECTORY="../Data/Units/"
+			 MULTI_START="FALSE" MAX_PROC_COUNT="50">
+			 <COMMAND_ENV VAR_NAME="PATH" VALUE="../../ProgramsWin/bin"/>
+			 <COMMAND_PARAM VALUE="../../ProgramsWin/DataEditor/tth.template"/>
+			 <COMMAND_PARAM VALUE="-view"/>
+	</COMMAND>
+
+	<COMMAND NAME="Смотреть ТТХ системы"
+			 COMMAND="DataEditor/SettingsLib.exe"
+			 WORKING_DIRECTORY="../Data/Systems/"
+			 MULTI_START="FALSE" 
+			 MAX_PROC_COUNT="50">
+			 <COMMAND_ENV VAR_NAME="PATH" VALUE="../../../ProgramsWin/bin"/>
+			 <COMMAND_PARAM VALUE="../../../ProgramsWin/DataEditor/sys.template"/>
+			 <COMMAND_PARAM VALUE="-view"/>
+	</COMMAND>
+	
+	<COMMAND NAME="Открыть в проводнике" 
+			 COMMAND="./bin/Start.bat" 
+			 WORKING_DIRECTORY="" 
+			 MULTI_START="FALSE"/>
+
+	<COMMAND NAME="Открыть в текстовом редакторе"
+			 COMMAND="C:\Program Files\EditPlus\editplus.exe" 
+			 RESERVE_COMMAND="C:\Program Files (x86)\EditPlus 3\editplus.exe"
+			 MULTI_START="TRUE"/>
+
+	<COMMAND NAME="Открыть в текстовом просмотрщике"
+			 COMMAND="C:\Program Files (x86)\EditPlus 3\editplus.exe" 
+			 RESERVE_COMMAND="C:\Program Files\EditPlus\editplus.exe">
+			 <COMMAND_PARAM VALUE="-r"/>
+	</COMMAND>
+	
+	<COMMAND NAME="Создать новую задачу"
+			 COMMAND="./bin/createNewTask.bat" 
+			 RESERVE_COMMAND=""
+			 WORKING_DIRECTORY="../Data/"/>
+</COMMANDS>

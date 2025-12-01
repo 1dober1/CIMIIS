@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<GUI 
+
+APP_NAME="МИРЭА" 
+TEXT_EDITOR="Открыть в текстовом редакторе" 
+COMMANDS_TO_STOP_BUTTON="Остановить всё" 
+TEXT_SIZE="14"  
+TOOL_BAR_ICON_SIZE="64" 
+TREE_ICON_SIZE="32" 
+BUTTON_ICON_SIZE="16" 
+SHOW_PARK_TASK="no">
+
+	<!-- Не должно быть папок с одинаковыми именами-->
+	<!-- Команды разделяются символом #-->
+
+	<FOLDER NAME="ТТХ"
+			ICON="UNIT.png"
+			TEXT="ТТХ объектов"
+			START_COMMAND="Открыть в текстовом редакторе"
+			EDIT_COMMAND="Открыть в текстовом редакторе"
+			WATCH_COMMAND="Открыть в текстовом просмотрщике"
+			IS_EXPAND="FALSE">
+	</FOLDER>
+
+	<FOLDER NAME="Задачи"
+			ICON="TASK.png"
+			TEXT="Расчетные задачи"
+			EDIT_COMMAND="Открыть в текстовом редакторе"
+			WATCH_COMMAND="Открыть в текстовом просмотрщике"
+			COMMAND_LIST="Начать моделирование#SEPARATOR#Открыть в визуализаторе"
+			IS_EXPAND="TRUE">
+		
+		<FOLDER NAME="Красные"
+				ICON="RED_SCEN.png"
+				TEXT="Красные сценарии"
+				START_COMMAND="Открыть в визуализаторе"
+				EDIT_COMMAND="Открыть в текстовом редакторе"
+				WATCH_COMMAND="Открыть в текстовом просмотрщике"
+				IS_EXPAND="FALSE"/>
+		
+		<FOLDER NAME="Синие"
+				ICON="BLUE_SCEN.png"
+				TEXT="Синие сценарии"
+				START_COMMAND="Открыть в визуализаторе"
+				EDIT_COMMAND="Открыть в текстовом редакторе"
+				WATCH_COMMAND="Открыть в текстовом просмотрщике"
+				IS_EXPAND="FALSE"/>	
+	</FOLDER>
+
+	<FOLDER NAME="Результаты" 
+			ICON="FILM.png" 
+			START_COMMAND="Открыть в визуализаторе" 
+			EDIT_COMMAND="Открыть в текстовом редакторе" 
+			IS_EXPAND="TRUE">
+	</FOLDER>
+
+	<BUTTON ICON="STOP_MODEL.png" START_COMMAND="Остановить моделирование"/>
+	<BUTTON ICON="NEW_TASK.png" START_COMMAND="Создать новую задачу"/>
+
+</GUI>

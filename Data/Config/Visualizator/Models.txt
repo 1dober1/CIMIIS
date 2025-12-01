@@ -1,0 +1,4 @@
+БпЛА					Object/uav.osgb			uav.png		on	0.3		255	50	50	on	2	5	5	5
+Камаз					Object/kamaz.osgb		kamaz.png	on	0.5		0	0	250	on	2	5	5	5
+Танк					Object/tank.osgb		tank.png	on	0.5		0	0	250	on	2	5	5	5
+Ракета					Object/mis.ive			mis.png		on	0.5		255     50      50	on	2	5	5	5	

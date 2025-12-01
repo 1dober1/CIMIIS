@@ -1,0 +1,14 @@
+// Файл Version.h
+// Версия программы и код сборки программы
+//
+
+#ifndef Kernel_Version_h
+#define Kernel_Version_h
+
+
+#define REVISION_NUMBER     "$WCREV$$WCMODS?M:$"
+#define BUILD_NUMBER        "$WCNOW=%d%H%m%M%y%S$"
+
+
+#endif
+

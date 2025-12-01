@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\01_Algebra">
+      <UniqueIdentifier>{bf6315f3-9529-4418-98f8-6d8fcb51be16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02_Calculus">
+      <UniqueIdentifier>{5442ef13-d57d-47f1-b643-777c33a7d69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03_Geometry">
+      <UniqueIdentifier>{a3c6ad67-5259-42b7-b990-bca1506754e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01_Algebra">
+      <UniqueIdentifier>{74b1fdcb-ac14-4155-9506-5f54fbd7be64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02_Calculus">
+      <UniqueIdentifier>{6e81eafc-4d91-4d71-bc37-b38fd185e1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03_Geometry">
+      <UniqueIdentifier>{386f926e-3c7b-4207-a5cb-1ebde5286b20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Algebra\01_CEquationQuadratic.h">
+      <Filter>Header Files\01_Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Algebra\02_CEquationCubic.h">
+      <Filter>Header Files\01_Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Algebra\03_CEquationQuartic.h">
+      <Filter>Header Files\01_Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Calculus\02_CTableFunction.h">
+      <Filter>Header Files\02_Calculus</Filter>
+    </ClInclude>
+    <ClInclude Include="02_Calculus\01_CInterpolator.h">
+      <Filter>Header Files\02_Calculus</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Geometry\01_CVector3D.h">
+      <Filter>Header Files\03_Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Geometry\02_CPoint3D.h">
+      <Filter>Header Files\03_Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Geometry\03_CLine3D.h">
+      <Filter>Header Files\03_Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="03_Geometry\04_CSphere3D.h">
+      <Filter>Header Files\03_Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UnityBuild.020.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Algebra\01_CEquationQuadratic.cpp">
+      <Filter>Source Files\01_Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Algebra\02_CEquationCubic.cpp">
+      <Filter>Source Files\01_Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Algebra\03_CEquationQuartic.cpp">
+      <Filter>Source Files\01_Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Calculus\02_CTableFunction.cpp">
+      <Filter>Source Files\02_Calculus</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Calculus\01_CInterpolator.cpp">
+      <Filter>Source Files\02_Calculus</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Geometry\01_CVector3D.cpp">
+      <Filter>Source Files\03_Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Geometry\02_CPoint3D.cpp">
+      <Filter>Source Files\03_Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Geometry\03_CLine3D.cpp">
+      <Filter>Source Files\03_Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Geometry\04_CSphere3D.cpp">
+      <Filter>Source Files\03_Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+</Project>

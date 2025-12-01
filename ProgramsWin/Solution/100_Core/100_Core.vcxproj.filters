@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\01_CoordSystems">
+      <UniqueIdentifier>{0bb8a4fe-f019-4044-81f9-2307fb5b3037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01_CoordSystems">
+      <UniqueIdentifier>{c4efb979-dbec-40e5-af4a-ff465af30eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02_TaskReader">
+      <UniqueIdentifier>{1bcf6ba1-4424-4cf8-a6c0-73408f68e788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02_TaskReader">
+      <UniqueIdentifier>{24ba20f9-438c-49b5-9114-730bf0daa7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03_DataExchange">
+      <UniqueIdentifier>{a0ea2185-fc34-4c10-8272-2498144ab195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03_DataExchange">
+      <UniqueIdentifier>{1cda0b50-7bb3-4770-8640-4ee6773e9cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03_DataExchange\01_Impacts">
+      <UniqueIdentifier>{bfe57a44-4453-447d-9c62-eeebaf4c1d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03_DataExchange\01_Impacts">
+      <UniqueIdentifier>{a4220b02-5e29-4b7e-8679-572d03c30f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03_DataExchange\02_Requests">
+      <UniqueIdentifier>{ffb29e16-3412-414d-be93-207c1f33248f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03_DataExchange\02_Requests">
+      <UniqueIdentifier>{90aee4be-ca94-4fc2-b2a9-5f7bdf6cdcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\05_VirtualWorld">
+      <UniqueIdentifier>{d7ef2501-870f-4da6-9a61-e420c759a2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05_VirtualWorld">
+      <UniqueIdentifier>{80f8a7e8-b045-4c1a-9bc6-1f6bd32ccea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\07_Surface">
+      <UniqueIdentifier>{11cdda2a-43fa-4b70-a632-6952ff469b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07_Surface">
+      <UniqueIdentifier>{542a45c1-b26a-4bf8-9260-657b15bdaaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\04_OutputWriter">
+      <UniqueIdentifier>{75aca511-692b-4e09-8176-26e0c97b358b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04_OutputWriter">
+      <UniqueIdentifier>{c0099b2d-2730-42b8-a156-3941257ed0f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01_CoordSystems\01_CPointLocal.h">
+      <Filter>Header Files\01_CoordSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="01_CoordSystems\02_CPointGlobal.h">
+      <Filter>Header Files\01_CoordSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="01_CoordSystems\03_CPointGeo.h">
+      <Filter>Header Files\01_CoordSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\01_CTaskPoint.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\02_CTaskCmd.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\03_CTaskObject.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\40_CTaskMsg.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\41_CTaskMsgQueue.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\50_CTask.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_CImpact.h">
+      <Filter>Header Files\03_DataExchange</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\01_CImpactAppear.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\03_CImpactDisappear.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\02_CImpactDestroy.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\02_CRequest.h">
+      <Filter>Header Files\03_DataExchange</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\02_Requests\01_CRequestAmmunition.h">
+      <Filter>Header Files\03_DataExchange\02_Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\04_CImpactTargetNew.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\05_CImpactTargetLost.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\07_CImpactWeaponLaunchSimple.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\08_CImpactWeaponExplosion.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\02_Requests\02_CRequestTimeToMeetWeapon.h">
+      <Filter>Header Files\03_DataExchange\02_Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\09_CImpactTargetHit.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\11_CImpactTargetMiss.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\12_CImpactTargetRefuse.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\02_Requests\03_CRequestServiceTime.h">
+      <Filter>Header Files\03_DataExchange\02_Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\06_CImpactLaunchWeapon.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\15_CImpactAttackAllarm.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\02_Requests\06_CRequestAmmunitionParam.h">
+      <Filter>Header Files\03_DataExchange\02_Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\01_CSysType.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\02_CSysTypeNull.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\03_CSysTypeList.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\04_CSys.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\05_CSysNull.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\06_CSysMotionType.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\07_CSysMotion.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\10_CObject.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\11_CObjectType.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\12_CObjectTypeList.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="05_VirtualWorld\13_CObjectList.h">
+      <Filter>Header Files\05_VirtualWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="03_DataExchange\01_Impacts\10_CImpactFireDelay.h">
+      <Filter>Header Files\03_DataExchange\01_Impacts</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Surface\CSharedMemory.h">
+      <Filter>Header Files\07_Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Surface\CSurface.h">
+      <Filter>Header Files\07_Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Surface\CSurfaceBase.h">
+      <Filter>Header Files\07_Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Surface\ETypeSurface.h">
+      <Filter>Header Files\07_Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="04_OutputWriter\01_CFilm.h">
+      <Filter>Header Files\04_OutputWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\20_CTaskRouteFlight.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02_TaskReader\30_CTaskZonePatrol.h">
+      <Filter>Header Files\02_TaskReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UnityBuild.100.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01_CoordSystems\01_CPointLocal.cpp">
+      <Filter>Source Files\01_CoordSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="01_CoordSystems\02_CPointGlobal.cpp">
+      <Filter>Source Files\01_CoordSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="01_CoordSystems\03_CPointGeo.cpp">
+      <Filter>Source Files\01_CoordSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\01_CTaskPoint.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\02_CTaskCmd.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\03_CTaskObject.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\40_CTaskMsg.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\41_CTaskMsgQueue.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\50_CTask.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_CImpact.cpp">
+      <Filter>Source Files\03_DataExchange</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\01_CImpactAppear.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\02_CImpactDestroy.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\03_CImpactDisappear.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_CRequest.cpp">
+      <Filter>Source Files\03_DataExchange</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\01_CRequestAmmunition.cpp">
+      <Filter>Source Files\03_DataExchange\02_Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\04_CImpactTargetNew.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\05_CImpactTargetLost.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\07_CImpactWeaponLaunchSimple.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\08_CImpactWeaponExplosion.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\02_CRequestTimeToMeetWeapon.cpp">
+      <Filter>Source Files\03_DataExchange\02_Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\09_CImpactTargetHit.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\11_CImpactTargetMiss.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\12_CImpactTargetRefuse.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\03_CRequestServiceTime.cpp">
+      <Filter>Source Files\03_DataExchange\02_Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\06_CImpactLaunchWeapon.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\15_CImpactAttackAllarm.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\06_CRequestAmmunitionParam.cpp">
+      <Filter>Source Files\03_DataExchange\02_Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\01_CSysType.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\02_CSysTypeNull.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\03_CSysTypeList.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\04_CSys.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\05_CSysNull.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\06_CSysMotionType.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\07_CSysMotion.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\10_CObject.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\11_CObjectType.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\12_CObjectTypeList.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\13_CObjectList.cpp">
+      <Filter>Source Files\05_VirtualWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\10_CImpactFireDelay.cpp">
+      <Filter>Source Files\03_DataExchange\01_Impacts</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Surface\CSharedMemory.cpp">
+      <Filter>Source Files\07_Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Surface\CSurfaceBase.cpp">
+      <Filter>Source Files\07_Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Surface\CSurface.cpp">
+      <Filter>Source Files\07_Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="04_OutputWriter\01_CFilm.cpp">
+      <Filter>Source Files\04_OutputWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\20_CTaskRouteFlight.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\30_CTaskZonePatrol.cpp">
+      <Filter>Source Files\02_TaskReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

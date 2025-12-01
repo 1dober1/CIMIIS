@@ -1,0 +1,7 @@
+show_name = "Танк"
+
+kind = "наземный"
+
+[systems=]
+                "Движение.Объект.sys"
+[/systems]

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<FOLDERS DIR="../../Data/" ICONS_DIR="./icons/">
+	
+	<FOLDER   PATH="Films" 
+			  NAME="Результаты"
+			  MULTI_SELECTION="TRUE" 
+			  START_FOLDER=""
+			  FILTERS="*.3df" 
+			  READ_FOLDERS="FALSE" 
+			  PARSER="NONE"/>
+	
+	<FOLDER   PATH="Tasks" 
+			  NAME="Задачи"
+			  FILTERS="*.tas"
+			  MULTI_SELECTION="TRUE" 
+			  THIS_IS_TASK_FOLDER="TRUE" 
+			  PARSER="BOTH" 
+			  READ_FOLDERS="BOTH" 
+			  WARNING_DLG="FALSE">
+			  <PARAMETER HOW_GET="F#RedScene" 
+						 NAME="Красные сценарии" 
+						 SHOW_IN_TABLE="FALSE" 
+						 SHOW_IN_ADDITIONAL_STRING="TRUE" 
+						 DESTINATION_FOLDER="Красные" 
+						 MAX_LIST_COUNT="5"/>
+			  <PARAMETER HOW_GET="F#BlueScene" 
+						 NAME="Синие сценарии" 
+						 SHOW_IN_TABLE="FALSE" 
+						 SHOW_IN_ADDITIONAL_STRING="TRUE" 
+						 DESTINATION_FOLDER="Синие" 
+						 MAX_LIST_COUNT="5"/>
+			  <PARAMETER HOW_GET="F#film_count" 
+						 NAME="Кол-во протоколов" 
+						 SHOW_IN_TABLE="TRUE" 
+						 SHOW_IN_ADDITIONAL_STRING="FALSE" 
+						 DESTINATION_FOLDER=""/>
+	</FOLDER>
+
+  <FOLDER   PATH="RedScenarios" 
+			NAME="Красные" 
+			FILTERS="*.scn" 
+			THIS_IS_SCEN_FOLDER="TRUE" 
+			PARSER="BOTH" 
+			READ_FOLDERS="FALSE" 
+			WARNING_DLG="TRUE" 
+			TU_FOLDER="ТТХ">
+			<PARAMETER HOW_GET="F#scn_type" 
+					   NAME="Принадлежность" 
+					   SHOW_IN_TABLE="TRUE" 
+					   SHOW_IN_ADDITIONAL_STRING="FALSE" 
+					   DESTINATION_FOLDER=""/>
+			<PARAMETER HOW_GET="NAME_AS_PARAM#Красные сценарии" 
+					   NAME="Задачи" 
+					   SHOW_IN_TABLE="FALSE" 
+					   SHOW_IN_ADDITIONAL_STRING="TRUE" 
+					   DESTINATION_FOLDER="Задачи" 
+					   MAX_LIST_COUNT="10"/>
+  </FOLDER>
+
+  <FOLDER   PATH="BlueScenarios" 
+			NAME="Синие" 
+			FILTERS="*.scn" 
+			THIS_IS_SCEN_FOLDER="TRUE" 
+			PARSER="BOTH" 
+			READ_FOLDERS="FALSE" 
+			WARNING_DLG="FALSE" 
+			TU_FOLDER="ТТХ">
+			<PARAMETER HOW_GET="F#scn_type" 
+					   NAME="Принадлежность" 
+					   SHOW_IN_TABLE="TRUE" 
+					   SHOW_IN_ADDITIONAL_STRING="FALSE" 
+					   DESTINATION_FOLDER=""/>
+			<PARAMETER HOW_GET="NAME_AS_PARAM#Синие сценарии" 
+					   NAME="Задачи" 
+					   SHOW_IN_TABLE="FALSE" 
+					   SHOW_IN_ADDITIONAL_STRING="TRUE" 
+					   DESTINATION_FOLDER="Задачи" 
+					   MAX_LIST_COUNT="10"/>
+  </FOLDER>
+   
+  <FOLDER   PATH="Units" 
+			NAME="ТТХ" FILTERS="*.tth"
+			NEW_FILE_FILTERS="*.*.tth"
+			READ_FOLDERS="FALSE" 
+			PARSER="BOTH" 
+			WARNING_DLG="FALSE">
+			<PARAMETER HOW_GET="F#name" 
+					   NAME="Имя ТТХ" 
+					   SHOW_IN_TABLE="FALSE" 
+					   SHOW_IN_ADDITIONAL_STRING="TRUE" 
+					   DESTINATION_FOLDER=""/>
+			<PARAMETER HOW_GET="F#show_name" 
+					   NAME="Название" 
+					   SHOW_IN_TABLE="TRUE" 
+					   SHOW_IN_ADDITIONAL_STRING="TRUE" 
+					   DESTINATION_FOLDER=""/>
+  </FOLDER>
+   
+  
+	<FOLDER   PATH="Systems" 
+			  NAME="Системы движения"
+			  FILTERS="*[Дд]вижение.*#*[Дд]вижение-*"
+			  NEW_FILE_FILTERS="*.*.[Дд]вижение.sys"
+			  IS_EXPAND="FALSE" 
+			  READ_FOLDERS="FALSE" 
+			  PARSER="NONE"/>
+	
+	<FOLDER   PATH="Systems" 
+			  NAME="Системы обнаружения"
+			  FILTERS="*[Рр]азведка*#*[Оо]бзор*#*[Оо]птика*#*[Лл]окатор*"
+			  NEW_FILE_FILTERS="*.*.*[Рр]азведка*.sys#*.*.*[Оо]бзор*.sys#*.*.*[Оо]птика*.sys#*.*.*[Лл]окатор*.sys"
+			  READ_FOLDERS="FALSE" 
+			  PARSER="NONE"/>	
+	
+	<FOLDER   PATH="Systems" 
+			  NAME="Системы пуска" 
+			  FILTERS="*Пуск*" 
+			  IS_EXPAND="FALSE" 
+			  READ_FOLDERS="FALSE" 
+			  PARSER="NONE"/>
+</FOLDERS>  

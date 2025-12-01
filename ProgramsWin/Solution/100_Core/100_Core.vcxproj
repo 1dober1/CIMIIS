@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{41301DFB-257D-4705-8486-B7623AEAA7A6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>_100_Core</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)_Output\</OutDir>
+    <IntDir>$(SolutionDir)_Temp\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)000_3rdParty\include;$(SolutionDir)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="01_CoordSystems\01_CPointLocal.h" />
+    <ClInclude Include="01_CoordSystems\02_CPointGlobal.h" />
+    <ClInclude Include="01_CoordSystems\03_CPointGeo.h" />
+    <ClInclude Include="02_TaskReader\01_CTaskPoint.h" />
+    <ClInclude Include="02_TaskReader\02_CTaskCmd.h" />
+    <ClInclude Include="02_TaskReader\03_CTaskObject.h" />
+    <ClInclude Include="02_TaskReader\20_CTaskRouteFlight.h" />
+    <ClInclude Include="02_TaskReader\30_CTaskZonePatrol.h" />
+    <ClInclude Include="02_TaskReader\40_CTaskMsg.h" />
+    <ClInclude Include="02_TaskReader\41_CTaskMsgQueue.h" />
+    <ClInclude Include="02_TaskReader\50_CTask.h" />
+    <ClInclude Include="03_DataExchange\01_CImpact.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\01_CImpactAppear.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\02_CImpactDestroy.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\03_CImpactDisappear.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\06_CImpactLaunchWeapon.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\07_CImpactWeaponLaunchSimple.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\08_CImpactWeaponExplosion.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\04_CImpactTargetNew.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\05_CImpactTargetLost.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\09_CImpactTargetHit.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\10_CImpactFireDelay.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\11_CImpactTargetMiss.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\12_CImpactTargetRefuse.h" />
+    <ClInclude Include="03_DataExchange\01_Impacts\15_CImpactAttackAllarm.h" />
+    <ClInclude Include="03_DataExchange\02_CRequest.h" />
+    <ClInclude Include="03_DataExchange\02_Requests\01_CRequestAmmunition.h" />
+    <ClInclude Include="03_DataExchange\02_Requests\02_CRequestTimeToMeetWeapon.h" />
+    <ClInclude Include="03_DataExchange\02_Requests\03_CRequestServiceTime.h" />
+    <ClInclude Include="03_DataExchange\02_Requests\06_CRequestAmmunitionParam.h" />
+    <ClInclude Include="04_OutputWriter\01_CFilm.h" />
+    <ClInclude Include="05_VirtualWorld\01_CSysType.h" />
+    <ClInclude Include="05_VirtualWorld\02_CSysTypeNull.h" />
+    <ClInclude Include="05_VirtualWorld\03_CSysTypeList.h" />
+    <ClInclude Include="05_VirtualWorld\04_CSys.h" />
+    <ClInclude Include="05_VirtualWorld\05_CSysNull.h" />
+    <ClInclude Include="05_VirtualWorld\06_CSysMotionType.h" />
+    <ClInclude Include="05_VirtualWorld\07_CSysMotion.h" />
+    <ClInclude Include="05_VirtualWorld\10_CObject.h" />
+    <ClInclude Include="05_VirtualWorld\11_CObjectType.h" />
+    <ClInclude Include="05_VirtualWorld\12_CObjectTypeList.h" />
+    <ClInclude Include="05_VirtualWorld\13_CObjectList.h" />
+    <ClInclude Include="07_Surface\CSharedMemory.h" />
+    <ClInclude Include="07_Surface\CSurface.h" />
+    <ClInclude Include="07_Surface\CSurfaceBase.h" />
+    <ClInclude Include="07_Surface\ETypeSurface.h" />
+    <ClInclude Include="FrontEnd.h" />
+    <ClInclude Include="Settings.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_CoordSystems\01_CPointLocal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01_CoordSystems\02_CPointGlobal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01_CoordSystems\03_CPointGeo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\01_CTaskPoint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\02_CTaskCmd.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\03_CTaskObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\20_CTaskRouteFlight.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\30_CTaskZonePatrol.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\40_CTaskMsg.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\41_CTaskMsgQueue.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02_TaskReader\50_CTask.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_CImpact.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\01_CImpactAppear.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\02_CImpactDestroy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\03_CImpactDisappear.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\06_CImpactLaunchWeapon.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\07_CImpactWeaponLaunchSimple.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\08_CImpactWeaponExplosion.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\04_CImpactTargetNew.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\05_CImpactTargetLost.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\09_CImpactTargetHit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\10_CImpactFireDelay.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\11_CImpactTargetMiss.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\12_CImpactTargetRefuse.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\01_Impacts\15_CImpactAttackAllarm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_CRequest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\01_CRequestAmmunition.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\02_CRequestTimeToMeetWeapon.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\03_CRequestServiceTime.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_DataExchange\02_Requests\06_CRequestAmmunitionParam.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_OutputWriter\01_CFilm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\01_CSysType.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\02_CSysTypeNull.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\03_CSysTypeList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\04_CSys.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\05_CSysNull.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\06_CSysMotionType.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\07_CSysMotion.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\10_CObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\11_CObjectType.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\12_CObjectTypeList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_VirtualWorld\13_CObjectList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07_Surface\CSharedMemory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07_Surface\CSurface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07_Surface\CSurfaceBase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UnityBuild.100.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,8 @@
+show_name = "Ракета"
+
+kind = "воздушный"
+
+[systems=]
+        "Движение.Ракета.sys"
+[/systems]
+
